@@ -1,0 +1,48 @@
+.list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 45%;
+  list-style-type: none;
+  max-width: 120px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  padding-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .list-item {
+    max-width: 190px;
+    padding-top: 26px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+}
+
+.app-image {
+  width: 75px;
+  height: 75px;
+}
+
+@media screen and (min-width: 768px) {
+  .app-image {
+    width: 105px;
+    height: 105px;
+  }
+}
+
+.app-name {
+  color: #1e293b;
+  font-family: 'Bree Serif';
+  font-size: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .app-name {
+    font-size: 16px;
+  }
+}
